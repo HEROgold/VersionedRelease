@@ -26,7 +26,7 @@ class Version:
             return Version(*Version.get_parts(data["version"]))
 
     @staticmethod
-    def get_parts(version: str) -> tuple[int, int, int]:  # noqa: FA102
+    def get_parts(version: str) -> tuple[int, int, int]:
         """Get the parts of the version."""
         version_parts = version.split(".")
         return (

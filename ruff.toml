@@ -1,1 +1,6 @@
+[lint]
 select = ["ALL"]
+ignore = [
+    "D203",
+    "D213",
+]

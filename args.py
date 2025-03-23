@@ -1,5 +1,5 @@
+"""Command line arguments for the versioned release script."""
 from argparse import ArgumentParser, Namespace
-
 
 parser = ArgumentParser(description="Versioned Release")
 parser.add_argument(
